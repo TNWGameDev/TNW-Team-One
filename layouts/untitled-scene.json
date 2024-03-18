@@ -29,7 +29,7 @@
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "Skibiti_toilet_",
+      "name": "Brick",
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -71,7 +71,7 @@
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Skibiti_toilet_"
+        "objectName": "Brick"
       }
     ]
   },
