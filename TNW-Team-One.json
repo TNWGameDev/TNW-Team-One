@@ -68,7 +68,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
         "name": "NewSprite",
         "smoothed": true,
         "userAdded": true
@@ -114,6 +114,12 @@
       "name": "level_num",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "player_Velocity",
+      "type": "number",
+      "value": 0
     }
   ],
   "layouts": [
