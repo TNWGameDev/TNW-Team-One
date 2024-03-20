@@ -23,7 +23,53 @@
   },
   "objectsGroups": [],
   "variables": [],
-  "instances": [],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obj_player_ship",
+      "persistentUuid": "35a2344c-7bbb-4846-b452-7a5625edc9bb",
+      "width": 0,
+      "x": 540,
+      "y": 331,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obj_planet",
+      "persistentUuid": "e957afcb-62a8-4a8d-87ad-6c59fc5f8d90",
+      "width": 0,
+      "x": 701,
+      "y": 324,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obj_player",
+      "persistentUuid": "e269dc2c-124d-4c97-9f72-a0842ddc1692",
+      "width": 0,
+      "x": 1041,
+      "y": 480,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
   "objects": [
     {
       "adaptCollisionMaskAutomatically": true,
