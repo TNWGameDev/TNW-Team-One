@@ -1,0 +1,50 @@
+{
+  "associatedLayout": "scn_game",
+  "name": "space",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 242,
+      "layer": "",
+      "name": "obj_planet",
+      "persistentUuid": "0ba21fc7-d35b-41dc-ba65-413baf7a954b",
+      "width": 265,
+      "x": 452,
+      "y": 50,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "obj_player_ship",
+      "persistentUuid": "a5ac77ec-f9a2-4ca2-8e6c-68d20c44b932",
+      "width": 0,
+      "x": 563,
+      "y": 398,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}
