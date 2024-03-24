@@ -99,6 +99,33 @@
         "name": "NewSprite4",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art_3.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
