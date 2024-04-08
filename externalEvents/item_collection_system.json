@@ -24,11 +24,48 @@
           },
           "parameters": [
             "",
-            ""
+            "Left"
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ResetObjectTimer"
+          },
+          "parameters": [
+            "obj_tree",
+            "\"collect_wood\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareObjectTimer"
+          },
+          "parameters": [
+            "obj_tree",
+            "\"collect_wood\"",
+            ">=",
+            "4"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_tree",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
