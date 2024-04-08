@@ -279,6 +279,17 @@
       "effects": [],
       "behaviors": [],
       "animations": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -298,6 +309,9 @@
       },
       {
         "objectName": "obj_player"
+      },
+      {
+        "objectName": "NewSprite2"
       }
     ]
   },
