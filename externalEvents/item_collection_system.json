@@ -1,0 +1,34 @@
+{
+  "associatedLayout": "scn_game",
+  "lastChangeTimeStamp": 0,
+  "name": "Item_collection_system",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "obj_player",
+            "obj_tree",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": []
+    }
+  ]
+}

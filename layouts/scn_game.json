@@ -344,31 +344,11 @@
       "target": "ship_control"
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "w"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "AddForceAL"
-          },
-          "parameters": [
-            "obj_player_ship",
-            "obj_player_ship.Angle()",
-            "1",
-            "0"
-          ]
-        }
-      ]
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "player_code"
     }
   ],
   "layers": [
