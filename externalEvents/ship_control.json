@@ -1,0 +1,158 @@
+{
+  "associatedLayout": "scn_game",
+  "lastChangeTimeStamp": 0,
+  "name": "ship_control",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Movement"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "+",
+            "5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "obj_player_ship",
+            "-75",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Rotate"
+          },
+          "parameters": [
+            "obj_player_ship",
+            "75",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            ">",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "-",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceAL"
+          },
+          "parameters": [
+            "obj_player_ship",
+            "obj_player_ship.Angle()",
+            "player_Velocity",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "obj_player_ship",
+            "",
+            "",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

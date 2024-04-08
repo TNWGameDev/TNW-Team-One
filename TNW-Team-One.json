@@ -63,7 +63,71 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite.png\"}",
+        "name": "NewSprite",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Game_Dev_Concept_Art_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game_Dev_Concept_Art_3.png",
+        "smoothed": true,
+        "userAdded": true
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -71,15 +135,54 @@
     "folderName": "__ROOT"
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "level_num",
+      "type": "number",
+      "value": 1
+    },
+    {
+      "folded": true,
+      "name": "player_Velocity",
+      "type": "number",
+      "value": 0
+    }
+  ],
   "layouts": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/untitled-scene"
+      "referenceTo": "/layouts/scn_game"
     }
   ],
-  "externalEvents": [],
+  "externalEvents": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/space_to_land"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/ship_control"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/player_code"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/item_collection_system"
+    }
+  ],
   "eventsFunctionsExtensions": [],
-  "externalLayouts": [],
+  "externalLayouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level_1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level_2"
+    }
+  ],
   "externalSourceFiles": []
 }
