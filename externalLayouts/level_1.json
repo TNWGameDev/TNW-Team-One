@@ -11,8 +11,8 @@
       "name": "obj_planet",
       "persistentUuid": "0ba21fc7-d35b-41dc-ba65-413baf7a954b",
       "width": 265,
-      "x": 452,
-      "y": 50,
+      "x": 445,
+      "y": 56,
       "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
@@ -27,8 +27,8 @@
       "name": "obj_player_ship",
       "persistentUuid": "a5ac77ec-f9a2-4ca2-8e6c-68d20c44b932",
       "width": 453,
-      "x": 563,
-      "y": 398,
+      "x": 352,
+      "y": 217,
       "zOrder": 2,
       "numberProperties": [],
       "stringProperties": [],
@@ -45,7 +45,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.338969317284538,
+    "zoomFactor": 0.5117784035210183,
     "windowMask": false
   }
 }

@@ -66,6 +66,17 @@
             "0",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_left\""
+          ]
         }
       ]
     },
@@ -93,6 +104,17 @@
             "50",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_down\""
+          ]
         }
       ]
     },
@@ -119,6 +141,43 @@
             "50",
             "0",
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_right\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "AnyKeyPressed"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangeSprite"
+          },
+          "parameters": [
+            "obj_player",
+            "=",
+            "2"
           ]
         }
       ]
@@ -149,6 +208,34 @@
             "",
             "",
             ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "level_num",
+            ">=",
+            "2"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "2",
+            "",
+            "0"
           ]
         }
       ]
