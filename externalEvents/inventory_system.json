@@ -315,6 +315,15 @@
                 },
                 {
                   "type": {
+                    "value": "ChangeLayer"
+                  },
+                  "parameters": [
+                    "items_stackable",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
@@ -339,7 +348,7 @@
                     "value": "SetObjectVariableAsBoolean"
                   },
                   "parameters": [
-                    "items",
+                    "items_stackable",
                     "collected",
                     ""
                   ]

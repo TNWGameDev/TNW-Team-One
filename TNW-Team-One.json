@@ -368,6 +368,33 @@
         "name": "NewSprite14",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk up 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk up 3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk up 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk up 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk up 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk up 1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

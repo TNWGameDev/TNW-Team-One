@@ -39,6 +39,17 @@
             "-50",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_up\""
+          ]
         }
       ]
     },

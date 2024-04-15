@@ -810,6 +810,126 @@
               ]
             }
           ]
+        },
+        {
+          "name": "walk_up",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk up 1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1014,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 1326
+                      },
+                      {
+                        "x": 1014,
+                        "y": 1326
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk up 2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1014,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 1326
+                      },
+                      {
+                        "x": 1014,
+                        "y": 1326
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "walk up 3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1014,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 47
+                      },
+                      {
+                        "x": 1437,
+                        "y": 1326
+                      },
+                      {
+                        "x": 1014,
+                        "y": 1326
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
