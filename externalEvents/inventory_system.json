@@ -565,7 +565,7 @@
                 "value": "SetObjectVariableAsBoolean"
               },
               "parameters": [
-                "items_stackable",
+                "items",
                 "collected",
                 "True"
               ]

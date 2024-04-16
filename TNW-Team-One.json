@@ -395,6 +395,24 @@
         "name": "walk up 1.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "space background.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"space background.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "space background.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Background_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Background_1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
