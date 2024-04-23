@@ -850,6 +850,17 @@
                     "=",
                     "ToString(obj_inventory_slot.item_count)"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "obj_item_count",
+                    "Sticker",
+                    "obj_inventory_slot",
+                    ""
+                  ]
                 }
               ]
             }

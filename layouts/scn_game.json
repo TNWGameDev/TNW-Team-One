@@ -1436,6 +1436,13 @@
         "includeConfig": 0
       },
       "target": "inventory_system"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "random_gen"
     }
   ],
   "layers": [
