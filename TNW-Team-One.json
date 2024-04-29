@@ -583,6 +583,96 @@
         "name": "NewSprite19",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_right_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_right_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_right_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_right_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_right_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_right_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_left_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_left_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_left_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_left_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "new_walk_left_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "new_walk_left_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Space_Ship_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space_Ship_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Space_Ship_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space_Ship_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Space_Ship_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space_Ship_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Space_Ship_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Space_Ship_1.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

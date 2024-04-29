@@ -334,7 +334,7 @@
       "height": 63,
       "keepRatio": true,
       "layer": "UI",
-      "name": "NewSprite",
+      "name": "health_bar_background",
       "persistentUuid": "e9608fef-5241-4c2b-817c-0c0d95bd43ea",
       "width": 300,
       "x": 34,
@@ -357,7 +357,7 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "NewSprite",
+          "name": "ship_animation",
           "useMultipleDirections": false,
           "directions": [
             {
@@ -367,7 +367,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Game_Dev_Concept_Art_3.png",
+                  "image": "Space_Ship_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -383,20 +383,128 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 823,
-                        "y": 524
+                        "x": 1040,
+                        "y": 431
                       },
                       {
-                        "x": 1477,
-                        "y": 524
+                        "x": 1630,
+                        "y": 431
                       },
                       {
-                        "x": 1477,
-                        "y": 1060
+                        "x": 1630,
+                        "y": 986
                       },
                       {
-                        "x": 823,
-                        "y": 1060
+                        "x": 1040,
+                        "y": 986
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Space_Ship_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1040,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 986
+                      },
+                      {
+                        "x": 1040,
+                        "y": 986
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Space_Ship_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1040,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 986
+                      },
+                      {
+                        "x": 1040,
+                        "y": 986
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Space_Ship_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 1040,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 431
+                      },
+                      {
+                        "x": 1630,
+                        "y": 986
+                      },
+                      {
+                        "x": 1040,
+                        "y": 986
                       }
                     ]
                   ]
@@ -571,7 +679,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk right 3.png",
+                  "image": "new_walk_right_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -588,26 +696,26 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk right 2.png",
+                  "image": "new_walk_right_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -624,26 +732,26 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk right 1.png",
+                  "image": "new_walk_right_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -660,19 +768,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -708,19 +816,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -744,19 +852,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -780,19 +888,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -811,7 +919,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk left 1.png",
+                  "image": "new_walk_left_1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -828,26 +936,26 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk left 2.png",
+                  "image": "new_walk_left_2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -864,26 +972,26 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "walk left 3.png",
+                  "image": "new_walk_left_3.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -900,19 +1008,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -948,19 +1056,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -984,19 +1092,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -1020,19 +1128,19 @@
                     [
                       {
                         "x": 1014,
-                        "y": 47
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 47
+                        "x": 1479,
+                        "y": 159
                       },
                       {
-                        "x": 1437,
-                        "y": 1326
+                        "x": 1479,
+                        "y": 1298
                       },
                       {
                         "x": 1014,
-                        "y": 1326
+                        "y": 1298
                       }
                     ]
                   ]
@@ -1670,7 +1778,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "health_bar_background",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1778,7 +1886,7 @@
         "objectName": "health_amount_count"
       },
       {
-        "objectName": "NewSprite"
+        "objectName": "health_bar_background"
       }
     ]
   },
