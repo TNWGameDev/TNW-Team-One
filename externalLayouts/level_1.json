@@ -43,8 +43,8 @@
       "name": "obj_space_background",
       "persistentUuid": "f245b7c5-fd45-4e6a-8b67-a998a78b5986",
       "width": 14737,
-      "x": -4968,
-      "y": -5028,
+      "x": -6950,
+      "y": -4859,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -61,7 +61,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.042545402459465316,
+    "zoomFactor": 0.10416820751496439,
     "windowMask": false
   }
 }

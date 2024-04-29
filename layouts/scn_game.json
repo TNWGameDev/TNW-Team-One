@@ -18,7 +18,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
+<<<<<<< Updated upstream
     "zoomFactor": 0.6719342832721469,
+=======
+    "zoomFactor": 0.08258739885902416,
+>>>>>>> Stashed changes
     "windowMask": false
   },
   "objectsGroups": [
@@ -37,7 +41,36 @@
           "name": "obj_brick"
         },
         {
-          "name": "obj_rock"
+          "name": "obj_Rock"
+        }
+      ]
+    },
+    {
+      "name": "World_objects",
+      "objects": [
+        {
+          "name": "obj_Tree"
+        },
+        {
+          "name": "obj_Rock"
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "WorldArray",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_Tree"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_Rock"
         }
       ]
     },
@@ -50,7 +83,6 @@
       ]
     }
   ],
-  "variables": [],
   "instances": [
     {
       "angle": 0,
@@ -579,7 +611,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "obj_tree",
+      "name": "obj_Tree",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1333,7 +1365,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "obj_rock",
+      "name": "obj_Rock",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1538,7 +1570,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "obj_space_background",
-      "texture": "Background_1.png",
+      "texture": "Space_Background.jpg",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -1546,6 +1578,7 @@
       "behaviors": []
     },
     {
+<<<<<<< Updated upstream
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "pain_trigger",
@@ -1739,6 +1772,12 @@
       "bold": false,
       "italic": false,
       "name": "health_amount_count",
+=======
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "NewText",
+>>>>>>> Stashed changes
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1748,7 +1787,11 @@
       "string": "Text",
       "font": "",
       "textAlignment": "left",
+<<<<<<< Updated upstream
       "characterSize": 17,
+=======
+      "characterSize": 20,
+>>>>>>> Stashed changes
       "color": {
         "b": 0,
         "g": 0,
@@ -1771,6 +1814,7 @@
         "text": "Text",
         "font": "",
         "textAlignment": "left",
+<<<<<<< Updated upstream
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -1835,6 +1879,11 @@
           ]
         }
       ]
+=======
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+>>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -1847,7 +1896,7 @@
         "objectName": "obj_planet"
       },
       {
-        "objectName": "obj_tree"
+        "objectName": "obj_Tree"
       },
       {
         "objectName": "obj_player"
@@ -1862,7 +1911,7 @@
         "objectName": "obj_brick"
       },
       {
-        "objectName": "obj_rock"
+        "objectName": "obj_Rock"
       },
       {
         "objectName": "obj_pew_pew"
@@ -1874,6 +1923,7 @@
         "objectName": "obj_space_background"
       },
       {
+<<<<<<< Updated upstream
         "objectName": "pain_trigger"
       },
       {
@@ -1887,6 +1937,9 @@
       },
       {
         "objectName": "health_bar_background"
+=======
+        "objectName": "NewText"
+>>>>>>> Stashed changes
       }
     ]
   },

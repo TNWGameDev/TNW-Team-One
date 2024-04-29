@@ -27,46 +27,28 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "CreateByName"
           },
           "parameters": [
             "",
-            "obj_tree",
-            "Random(2750)",
-            "Random(1850)",
+            "World_objects",
+            "WorldArray[RandomInRange(0, VariableChildCount(WorldArray))]",
+            "Random(25)",
+            "Random(25)",
             ""
           ]
         },
         {
           "type": {
-            "value": "Create"
+            "value": "DebuggerTools::ConsoleLog"
           },
           "parameters": [
-            "",
-            "obj_rock",
-            "Random(2750)",
-            "Random(1850)",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "obj_brick",
-            "Random(2750)",
-            "Random(1850)",
+            "WorldArray[RandomInRange(0, VariableChildCount(WorldArray))]",
+            "\"info\"",
             ""
           ]
         }
       ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
-      "actions": []
     }
   ]
 }
