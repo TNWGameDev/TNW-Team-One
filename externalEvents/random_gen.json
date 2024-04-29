@@ -5,7 +5,7 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "150",
+      "repeatExpression": "100",
       "conditions": [
         {
           "type": {
@@ -27,28 +27,46 @@
       "actions": [
         {
           "type": {
-            "value": "CreateByName"
+            "value": "Create"
           },
           "parameters": [
             "",
-            "World_objects",
-            "WorldArray[RandomInRange(0, VariableChildCount(WorldArray))]",
-            "Random(25)",
-            "Random(25)",
+            "obj_tree",
+            "Random(2750)",
+            "Random(1850)",
             ""
           ]
         },
         {
           "type": {
-            "value": "DebuggerTools::ConsoleLog"
+            "value": "Create"
           },
           "parameters": [
-            "WorldArray[RandomInRange(0, VariableChildCount(WorldArray))]",
-            "\"info\"",
+            "",
+            "obj_rock",
+            "Random(2750)",
+            "Random(1850)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_brick",
+            "Random(2750)",
+            "Random(1850)",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

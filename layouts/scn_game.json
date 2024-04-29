@@ -18,11 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-<<<<<<< Updated upstream
-    "zoomFactor": 0.6719342832721469,
-=======
-    "zoomFactor": 0.08258739885902416,
->>>>>>> Stashed changes
+    "zoomFactor": 0.4822766374727932,
     "windowMask": false
   },
   "objectsGroups": [
@@ -41,36 +37,7 @@
           "name": "obj_brick"
         },
         {
-          "name": "obj_Rock"
-        }
-      ]
-    },
-    {
-      "name": "World_objects",
-      "objects": [
-        {
-          "name": "obj_Tree"
-        },
-        {
-          "name": "obj_Rock"
-        }
-      ]
-    }
-  ],
-  "variables": [
-    {
-      "name": "WorldArray",
-      "type": "array",
-      "children": [
-        {
-          "folded": true,
-          "type": "string",
-          "value": "obj_Tree"
-        },
-        {
-          "folded": true,
-          "type": "string",
-          "value": "obj_Rock"
+          "name": "obj_rock"
         }
       ]
     },
@@ -83,6 +50,7 @@
       ]
     }
   ],
+  "variables": [],
   "instances": [
     {
       "angle": 0,
@@ -403,14 +371,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 1275,
+                    "y": 706.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1274,
+                    "y": 707
                   },
                   "customCollisionMask": [
                     [
@@ -439,14 +407,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 1275,
+                    "y": 706.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1274,
+                    "y": 707
                   },
                   "customCollisionMask": [
                     [
@@ -475,14 +443,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 1275,
+                    "y": 706.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1274,
+                    "y": 707
                   },
                   "customCollisionMask": [
                     [
@@ -511,14 +479,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 0,
-                    "y": 0
+                    "x": 1275,
+                    "y": 706.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1274,
+                    "y": 707
                   },
                   "customCollisionMask": [
                     [
@@ -611,7 +579,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "obj_Tree",
+      "name": "obj_tree",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1365,7 +1333,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "obj_Rock",
+      "name": "obj_rock",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -1570,7 +1538,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "obj_space_background",
-      "texture": "Space_Background.jpg",
+      "texture": "Background_1.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],
@@ -1578,7 +1546,6 @@
       "behaviors": []
     },
     {
-<<<<<<< Updated upstream
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "pain_trigger",
@@ -1589,7 +1556,7 @@
           "folded": true,
           "name": "damage_amount",
           "type": "number",
-          "value": 5
+          "value": 50
         }
       ],
       "effects": [],
@@ -1772,12 +1739,6 @@
       "bold": false,
       "italic": false,
       "name": "health_amount_count",
-=======
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "NewText",
->>>>>>> Stashed changes
       "smoothed": true,
       "type": "TextObject::Text",
       "underlined": false,
@@ -1787,11 +1748,7 @@
       "string": "Text",
       "font": "",
       "textAlignment": "left",
-<<<<<<< Updated upstream
       "characterSize": 17,
-=======
-      "characterSize": 20,
->>>>>>> Stashed changes
       "color": {
         "b": 0,
         "g": 0,
@@ -1814,7 +1771,6 @@
         "text": "Text",
         "font": "",
         "textAlignment": "left",
-<<<<<<< Updated upstream
         "characterSize": 17,
         "color": "0;0;0"
       }
@@ -1879,11 +1835,6 @@
           ]
         }
       ]
-=======
-        "characterSize": 20,
-        "color": "0;0;0"
-      }
->>>>>>> Stashed changes
     }
   ],
   "objectsFolderStructure": {
@@ -1896,7 +1847,7 @@
         "objectName": "obj_planet"
       },
       {
-        "objectName": "obj_Tree"
+        "objectName": "obj_tree"
       },
       {
         "objectName": "obj_player"
@@ -1911,7 +1862,7 @@
         "objectName": "obj_brick"
       },
       {
-        "objectName": "obj_Rock"
+        "objectName": "obj_rock"
       },
       {
         "objectName": "obj_pew_pew"
@@ -1923,7 +1874,6 @@
         "objectName": "obj_space_background"
       },
       {
-<<<<<<< Updated upstream
         "objectName": "pain_trigger"
       },
       {
@@ -1937,9 +1887,6 @@
       },
       {
         "objectName": "health_bar_background"
-=======
-        "objectName": "NewText"
->>>>>>> Stashed changes
       }
     ]
   },

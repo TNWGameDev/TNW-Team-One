@@ -20,7 +20,7 @@
     "templateSlug": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
-    "name": "TNW-Team-One",
+    "name": "Planet Pillager",
     "description": "",
     "author": "",
     "windowWidth": 1280,
@@ -416,7 +416,6 @@
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
         "file": "assets/NewTiledSprite5.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
@@ -672,12 +671,6 @@
         "kind": "image",
         "metadata": "",
         "name": "Space_Ship_1.png",
-=======
-        "file": "Space_Background.jpg",
-        "kind": "image",
-        "metadata": "",
-        "name": "Space_Background.jpg",
->>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       }
