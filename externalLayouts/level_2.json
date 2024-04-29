@@ -212,6 +212,22 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "pain_trigger",
+      "persistentUuid": "baebfa12-fadd-47bf-9b43-3e001bf1fdc0",
+      "width": 0,
+      "x": 560,
+      "y": 445,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
