@@ -211,6 +211,33 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            ">=",
+            "1000"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "=",
+            "1000"
+          ]
+        }
+      ]
     }
   ]
 }
