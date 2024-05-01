@@ -1,64 +1,42 @@
 {
   "associatedLayout": "scn_game",
   "lastChangeTimeStamp": 0,
-  "name": "space_to_land",
+  "name": "death_mechanic",
   "events": [
-    {
-      "type": "BuiltinCommonInstructions::Comment",
-      "color": {
-        "b": 109,
-        "g": 230,
-        "r": 255,
-        "textB": 0,
-        "textG": 0,
-        "textR": 0
-      },
-      "comment": "space to land"
-    },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "VarObjet"
           },
           "parameters": [
-            "obj_player_ship",
-            "obj_planet",
-            "",
-            "",
-            ""
+            "obj_player",
+            "health",
+            "=",
+            "0"
           ]
         }
       ],
       "actions": [
         {
           "type": {
-            "value": "ModVarGlobal"
-          },
-          "parameters": [
-            "level_num",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
             "value": "Scene"
           },
           "parameters": [
             "",
-            "\"scn_game\"",
-            "yes"
+            "\"scn_death\"",
+            ""
           ]
         },
         {
           "type": {
-            "value": "Delete"
+            "value": "ModVarGlobal"
           },
           "parameters": [
-            "obj_player_ship",
-            ""
+            "level_num",
+            "=",
+            "1"
           ]
         },
         {

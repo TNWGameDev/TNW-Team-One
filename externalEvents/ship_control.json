@@ -170,7 +170,7 @@
           "parameters": [
             "player_Velocity",
             "+",
-            "-3"
+            "-6"
           ]
         },
         {
@@ -207,7 +207,7 @@
           "parameters": [
             "obj_player_ship",
             "=",
-            "1"
+            "0"
           ]
         }
       ]
@@ -235,6 +235,33 @@
             "player_Velocity",
             "=",
             "1000"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "<=",
+            "0"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "=",
+            "0"
           ]
         }
       ]
