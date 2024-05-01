@@ -173,10 +173,41 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnyKeyPressed"
+            "value": "KeyPressed"
           },
           "parameters": [
-            ""
+            "",
+            "w"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        },
+        {
+          "type": {
+            "inverted": true,
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
           ]
         }
       ],

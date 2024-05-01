@@ -192,10 +192,11 @@
         {
           "type": {
             "inverted": true,
-            "value": "AnyKeyPressed"
+            "value": "KeyPressed"
           },
           "parameters": [
-            ""
+            "",
+            "w"
           ]
         }
       ],
