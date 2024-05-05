@@ -292,7 +292,22 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": ""
+      "comment": "jumping"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "Space"
+          ]
+        }
+      ],
+      "actions": []
     }
   ]
 }

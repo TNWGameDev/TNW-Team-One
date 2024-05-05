@@ -1,0 +1,23 @@
+{
+  "associatedLayout": "scn_game",
+  "lastChangeTimeStamp": 0,
+  "name": "z_order_code",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "ChangePlan"
+          },
+          "parameters": [
+            "entities",
+            "=",
+            "entities.Y()"
+          ]
+        }
+      ]
+    }
+  ]
+}

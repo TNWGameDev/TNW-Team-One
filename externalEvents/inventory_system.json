@@ -668,6 +668,18 @@
                 "found",
                 "True"
               ]
+            },
+            {
+              "type": {
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "pick_up_stackable2.mp3",
+                "",
+                "17",
+                "1"
+              ]
             }
           ],
           "events": [
@@ -864,6 +876,35 @@
                 }
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_player",
+            "items_stackable",
+            "50",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceVers"
+          },
+          "parameters": [
+            "items_stackable",
+            "obj_player",
+            "15",
+            ""
           ]
         }
       ]
