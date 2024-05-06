@@ -1,0 +1,19 @@
+{
+  "associatedLayout": "scn_game",
+  "lastChangeTimeStamp": 0,
+  "name": "mini_map",
+  "events": [
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "disabled": true,
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

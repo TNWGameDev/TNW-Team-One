@@ -1113,6 +1113,87 @@
         "name": "NewSprite30",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite33.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite31",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Planet.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Planet.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "minimap.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"minimap.png\",\"extension\":\".png\"}",
+        "name": "minimap.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minimap.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "minimap",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "minimap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "minimap2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minimap2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "minimap2.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk down3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk down3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "the_real_grasssss.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "the_real_grasssss.jpg",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1203,7 +1284,11 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/untitled-external-events"
+      "referenceTo": "/externalEvents/enemy_health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mini_map"
     }
   ],
   "eventsFunctionsExtensions": [

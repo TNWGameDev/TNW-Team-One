@@ -292,22 +292,46 @@
         "textG": 0,
         "textR": 0
       },
-      "comment": "jumping"
+      "comment": "attacking"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
       "conditions": [
         {
           "type": {
-            "value": "KeyReleased"
+            "value": "CollisionNP"
           },
           "parameters": [
+            "obj_bullet",
+            "pain_trigger",
             "",
-            "Space"
+            "",
+            ""
           ]
         }
       ],
-      "actions": []
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "pain_trigger",
+            "enemy_health",
+            "-",
+            "obj_bullet.Variable(damage_amount)"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_bullet",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }

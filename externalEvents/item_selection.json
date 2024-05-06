@@ -251,6 +251,67 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pew_pew\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ObjectVariableAsBoolean"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "selected",
+            "True"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyReleased"
+          },
+          "parameters": [
+            "",
+            "e"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_bullet",
+            "obj_player.X()",
+            "obj_player.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AddForceVersPos"
+          },
+          "parameters": [
+            "obj_bullet",
+            "CursorX()",
+            "CursorY()",
+            "300",
+            "1"
+          ]
+        }
+      ]
     }
   ]
 }
