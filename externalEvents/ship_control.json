@@ -348,6 +348,72 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Planet Navigator"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "NavForest",
+            "obj_planet_forest.X()",
+            "obj_planet_forest.Y()",
+            "360",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "NavForest",
+            "=",
+            "obj_player_ship.X()",
+            "=",
+            "obj_player_ship.Y()"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "NavWater",
+            "obj_planet_ocean.X()",
+            "obj_planet_ocean.Y()",
+            "360",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "NavWater",
+            "=",
+            "obj_player_ship.X()",
+            "=",
+            "obj_player_ship.Y()"
+          ]
+        }
+      ]
     }
   ]
 }

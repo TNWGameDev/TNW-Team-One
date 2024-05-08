@@ -1071,6 +1071,7 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "assets/NewSprite6.png",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"assets/NewSprite6.png\",\"extension\":\".png\"}",
@@ -1084,6 +1085,12 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/selected.png\"}",
         "name": "selected",
+=======
+        "file": "Grass.jpg",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Grass.jpg\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Grass.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
@@ -1103,7 +1110,11 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite29",
         "smoothed": true,
+<<<<<<< Updated upstream
         "userAdded": false
+=======
+        "userAdded": true
+>>>>>>> Stashed changes
       },
       {
         "alwaysLoaded": false,
@@ -1113,6 +1124,7 @@
         "name": "NewSprite30",
         "smoothed": true,
         "userAdded": true
+<<<<<<< Updated upstream
       },
       {
         "alwaysLoaded": false,
@@ -1194,6 +1206,8 @@
         "name": "the_real_grasssss.jpg",
         "smoothed": true,
         "userAdded": true
+=======
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
@@ -1221,6 +1235,22 @@
       "name": "found",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "wrld_objs",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_rock"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_tree"
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1269,6 +1299,7 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/death_mechanic"
+<<<<<<< Updated upstream
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1289,9 +1320,15 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/mini_map"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/parallax"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"

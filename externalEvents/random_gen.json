@@ -27,36 +27,13 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "CreateByName"
           },
           "parameters": [
             "",
-            "obj_tree",
-            "Random(2750)",
-            "Random(1850)",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "obj_rock",
-            "Random(2750)",
-            "Random(1850)",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "obj_brick",
-            "Random(2750)",
+            "enviormentals",
+            "wrld_objs[ToString(RandomInRange(0, GlobalVariableChildCount(wrld_objs)) -1)]",
+            "Random(2500)",
             "Random(1850)",
             ""
           ]

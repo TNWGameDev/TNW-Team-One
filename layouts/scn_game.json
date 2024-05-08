@@ -17,8 +17,13 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
+<<<<<<< Updated upstream
     "snap": true,
     "zoomFactor": 0.3128666891698474,
+=======
+    "snap": false,
+    "zoomFactor": 2.7012082625981493,
+>>>>>>> Stashed changes
     "windowMask": false
   },
   "objectsGroups": [
@@ -64,6 +69,7 @@
       ]
     },
     {
+<<<<<<< Updated upstream
       "name": "entities",
       "objects": [
         {
@@ -85,6 +91,15 @@
         },
         {
           "name": "obj_brick"
+=======
+      "name": "Planets",
+      "objects": [
+        {
+          "name": "obj_planet_forest"
+        },
+        {
+          "name": "obj_planet_ocean"
+>>>>>>> Stashed changes
         }
       ]
     }
@@ -675,6 +690,7 @@
                   "customCollisionMask": [
                     [
                       {
+<<<<<<< Updated upstream
                         "x": 135.5,
                         "y": 225.5
                       },
@@ -689,6 +705,22 @@
                       {
                         "x": 103.5,
                         "y": 255
+=======
+                        "x": 97,
+                        "y": 97
+                      },
+                      {
+                        "x": 296,
+                        "y": 97
+                      },
+                      {
+                        "x": 296,
+                        "y": 273
+                      },
+                      {
+                        "x": 97,
+                        "y": 273
+>>>>>>> Stashed changes
                       }
                     ]
                   ]
@@ -2114,6 +2146,7 @@
     },
     {
       "assetStoreId": "",
+<<<<<<< Updated upstream
       "height": 32,
       "name": "obj_grass",
       "texture": "the_real_grasssss.jpg",
@@ -2248,6 +2281,9 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "obj_bullet",
+=======
+      "name": "obj_pop_up_menu",
+>>>>>>> Stashed changes
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -2371,6 +2407,286 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 16,
+      "name": "obj_grass",
+      "texture": "Grass.jpg",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 16,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_planet_ocean",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ocean_Planet.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 670,
+                        "y": 182
+                      },
+                      {
+                        "x": 1713,
+                        "y": 182
+                      },
+                      {
+                        "x": 1713,
+                        "y": 1227
+                      },
+                      {
+                        "x": 670,
+                        "y": 1227
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_ship_landed",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Space_Ship_13",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Space_Ship_13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 213,
+                    "y": 147
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 213,
+                    "y": 147
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 158,
+                        "y": 74
+                      },
+                      {
+                        "x": 269,
+                        "y": 74
+                      },
+                      {
+                        "x": 269,
+                        "y": 192
+                      },
+                      {
+                        "x": 158,
+                        "y": 192
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NavForest",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Planet_X",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Planet_Y",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite30",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 27
+                      },
+                      {
+                        "x": 62,
+                        "y": 27
+                      },
+                      {
+                        "x": 62,
+                        "y": 38
+                      },
+                      {
+                        "x": 42,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NavWater",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Planet_X",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "Planet_Y",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite30",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 27
+                      },
+                      {
+                        "x": 62,
+                        "y": 27
+                      },
+                      {
+                        "x": 62,
+                        "y": 38
+                      },
+                      {
+                        "x": 42,
+                        "y": 38
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -2384,9 +2700,12 @@
           },
           {
             "objectName": "obj_planet_forest"
+<<<<<<< Updated upstream
           },
           {
             "objectName": "NewSprite"
+=======
+>>>>>>> Stashed changes
           }
         ]
       },
@@ -2434,9 +2753,12 @@
             "objectName": "obj_grass"
           },
           {
+<<<<<<< Updated upstream
             "objectName": "pain_trigger"
           },
           {
+=======
+>>>>>>> Stashed changes
             "objectName": "obj_asteroid_field"
           }
         ]
@@ -2449,6 +2771,15 @@
           },
           {
             "objectName": "obj_player"
+<<<<<<< Updated upstream
+=======
+          },
+          {
+            "objectName": "NavForest"
+          },
+          {
+            "objectName": "NavWater"
+>>>>>>> Stashed changes
           }
         ]
       },
@@ -2467,6 +2798,7 @@
         ]
       },
       {
+<<<<<<< Updated upstream
         "folderName": "tools",
         "children": [
           {
@@ -2476,6 +2808,12 @@
             "objectName": "obj_pew_pew"
           }
         ]
+=======
+        "objectName": "obj_pew_pew"
+      },
+      {
+        "objectName": "pain_trigger"
+>>>>>>> Stashed changes
       }
     ]
   },
@@ -2562,6 +2900,7 @@
         "includeConfig": 0
       },
       "target": "death_mechanic"
+<<<<<<< Updated upstream
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -2597,6 +2936,8 @@
         "includeConfig": 0
       },
       "target": "mini_map"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "layers": [
