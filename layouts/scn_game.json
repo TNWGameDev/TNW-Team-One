@@ -2833,7 +2833,7 @@
       "assetStoreId": "",
       "height": 16,
       "name": "obj_grass",
-      "texture": "Grass.jpg",
+      "texture": "Grass.jpg2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 16,
       "variables": [],

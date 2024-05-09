@@ -1122,6 +1122,15 @@
         "name": "NavWater",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Grass.jpg2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Grass.jpg2",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
