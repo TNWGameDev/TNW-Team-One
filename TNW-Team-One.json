@@ -267,7 +267,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite6.png\"}",
         "name": "NewSprite6",
         "smoothed": true,
         "userAdded": true
@@ -1071,10 +1071,26 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite6.png\",\"extension\":\".png\"}",
+        "name": "assets\\NewSprite6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/selected.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/selected.png\"}",
+        "name": "selected",
+=======
         "file": "Grass.jpg",
         "kind": "image",
         "metadata": "{\"localFilePath\":\"Grass.jpg\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "Grass.jpg",
+>>>>>>> Stashed changes
         "smoothed": true,
         "userAdded": true
       },
@@ -1094,7 +1110,11 @@
         "metadata": "{\"extension\":\".png\"}",
         "name": "NewSprite29",
         "smoothed": true,
+<<<<<<< Updated upstream
+        "userAdded": false
+=======
         "userAdded": true
+>>>>>>> Stashed changes
       },
       {
         "alwaysLoaded": false,
@@ -1104,33 +1124,99 @@
         "name": "NewSprite30",
         "smoothed": true,
         "userAdded": true
+<<<<<<< Updated upstream
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NavForest.png",
+        "file": "assets/NewSprite33.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\"}",
-        "name": "NavForest",
+        "name": "NewSprite31",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-        "file": "assets/NavWater.png",
+        "file": "Lava_Planet.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NavWater",
+        "metadata": "",
+        "name": "Lava_Planet.png",
         "smoothed": true,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< HEAD
         "file": "assets/Grass.jpg2.png",
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Grass.jpg2",
         "smoothed": true,
         "userAdded": true
+=======
+        "file": "minimap.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"minimap.png\",\"extension\":\".png\"}",
+        "name": "minimap.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minimap.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "minimap",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "minimap2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "minimap2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/minimap2.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "minimap2.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "walk down3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "walk down3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/walk down3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "walk down3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "the_real_grasssss.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "the_real_grasssss.jpg",
+        "smoothed": true,
+        "userAdded": true
+=======
+>>>>>>> Stashed changes
+>>>>>>> parent of 246dfb6 (nav and random gen)
       }
     ],
     "resourceFolders": []
@@ -1222,6 +1308,29 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/death_mechanic"
+<<<<<<< Updated upstream
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/z_order_code"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/item_collision"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/item_selection"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/enemy_health"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mini_map"
+=======
+>>>>>>> Stashed changes
     }
   ],
   "eventsFunctionsExtensions": [

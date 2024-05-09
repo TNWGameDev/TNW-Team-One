@@ -11,8 +11,13 @@
       "name": "obj_space_background",
       "persistentUuid": "f245b7c5-fd45-4e6a-8b67-a998a78b5986",
       "width": 26834,
+<<<<<<< Updated upstream
+      "x": -12420,
+      "y": -10799,
+=======
       "x": -12280,
       "y": -10947,
+>>>>>>> Stashed changes
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -79,8 +84,13 @@
       "name": "obj_asteroid_field",
       "persistentUuid": "1c6fc02a-7d74-4891-82b3-b96d757d8448",
       "width": 537,
+<<<<<<< Updated upstream
+      "x": 11483,
+      "y": -9093,
+=======
       "x": 11511,
       "y": -9011,
+>>>>>>> Stashed changes
       "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
@@ -96,8 +106,13 @@
       "name": "obj_planet_forest",
       "persistentUuid": "7e3ee8a2-162f-4565-8ab5-fb14b38d0a58",
       "width": 1094,
+<<<<<<< Updated upstream
+      "x": 4917,
+      "y": -2538,
+=======
       "x": 5305,
       "y": -5399,
+>>>>>>> Stashed changes
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -113,8 +128,13 @@
       "name": "obj_player_ship",
       "persistentUuid": "aa7dbdfc-243d-419d-9a6f-14efaf296608",
       "width": 565,
+<<<<<<< Updated upstream
+      "x": 808,
+      "y": 315,
+=======
       "x": 575,
       "y": 366,
+>>>>>>> Stashed changes
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -131,7 +151,11 @@
       "persistentUuid": "698d8ae9-cd74-48c0-9c81-f5470200df85",
       "width": 1202,
       "x": -4496,
+<<<<<<< Updated upstream
+      "y": -2844,
+=======
       "y": -977,
+>>>>>>> Stashed changes
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
@@ -140,6 +164,17 @@
     {
       "angle": 0,
       "customSize": true,
+<<<<<<< Updated upstream
+      "depth": 0,
+      "height": 757,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewSprite",
+      "persistentUuid": "0da6cbb6-22eb-4694-bfc1-853f540ed44d",
+      "width": 1090,
+      "x": 166,
+      "y": 3409,
+=======
       "depth": 1,
       "height": 211,
       "keepRatio": true,
@@ -149,10 +184,13 @@
       "width": 273,
       "x": 522,
       "y": 267,
+>>>>>>> Stashed changes
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+<<<<<<< Updated upstream
+=======
     },
     {
       "angle": 0,
@@ -170,6 +208,7 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+>>>>>>> Stashed changes
     }
   ],
   "editionSettings": {
@@ -182,7 +221,11 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.6126816756522011,
+<<<<<<< Updated upstream
+    "zoomFactor": 0.043792084010527886,
+=======
+    "zoomFactor": 0.5926957783684527,
+>>>>>>> Stashed changes
     "windowMask": false
   }
 }
