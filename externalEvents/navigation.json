@@ -1,0 +1,90 @@
+{
+  "associatedLayout": "scn_game",
+  "lastChangeTimeStamp": 0,
+  "name": "navigation",
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "obj_nav_forest",
+            "obj_planet_forest.X()",
+            "obj_planet_forest.Y()",
+            "360",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "obj_nav_forest",
+            "=",
+            "obj_player_ship.X() + 500",
+            "=",
+            "obj_player_ship.Y() + 250"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "obj_nav_water",
+            "obj_planet_ocean.X()",
+            "obj_planet_ocean.Y()",
+            "360",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "obj_nav_water",
+            "=",
+            "obj_player_ship.X() + 500",
+            "=",
+            "obj_player_ship.Y() + 250"
+          ]
+        },
+        {
+          "type": {
+            "value": "RotateTowardPosition"
+          },
+          "parameters": [
+            "obj_nav_volcano",
+            "obj_planet_volcano.X()",
+            "obj_planet_volcano.Y()",
+            "360",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetCenter"
+          },
+          "parameters": [
+            "obj_nav_volcano",
+            "=",
+            "obj_player_ship.X() + 500",
+            "=",
+            "obj_player_ship.Y() + 250"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ]
+}

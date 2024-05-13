@@ -5,7 +5,7 @@
   "events": [
     {
       "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "100",
+      "repeatExpression": "150",
       "conditions": [
         {
           "type": {
@@ -13,7 +13,7 @@
           },
           "parameters": [
             "level_num",
-            ">=",
+            "=",
             "2"
           ]
         },
@@ -72,7 +72,7 @@
           },
           "parameters": [
             "level_num",
-            ">=",
+            "=",
             "2"
           ]
         },
@@ -93,6 +93,34 @@
             "obj_ship_landed",
             "obj_player.X()+300",
             "obj_player.Y()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "enviormentals",
+            "enviormentals",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "enviormentals",
             ""
           ]
         }
