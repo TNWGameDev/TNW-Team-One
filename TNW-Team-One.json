@@ -1235,7 +1235,7 @@
         "alwaysLoaded": false,
         "file": "assets/Arrows V.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Arrows V.png\"}",
         "name": "Arrows V",
         "smoothed": true,
         "userAdded": true
@@ -1347,6 +1347,195 @@
         "name": "NewSprite40",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arrows_f.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Arrows_f.png\",\"extension\":\".png\"}",
+        "name": "Arrows_f.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/obj_nav_forest3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "obj_nav_forest3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Arrows_o.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Arrows_o.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite43.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite41",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite44.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite42",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Floor_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Floor_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Stuff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Stuff.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Stuff.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Stuff",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Stuff_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Stuff_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Stuff_1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Stuff_1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Space_Ship_14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Space_Ship_14",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_Things_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forest_Things_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_Things.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forest_Things.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_Things_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forest_Things_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forest_Things_2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Forest_Things_2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forest_Things.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Forest_Things",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forest_Things_1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Forest_Things_1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "the_real_grasssss3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "the_real_grasssss3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ray_Gun_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ray_Gun_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite45.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite43",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite46.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite44",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1380,6 +1569,37 @@
       "name": "have_gun",
       "type": "boolean",
       "value": false
+    },
+    {
+      "name": "forest_objs",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_tree"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_rock"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_tree_2"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_tree_3"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_bush"
+        }
+      ]
     }
   ],
   "layouts": [
@@ -1457,6 +1677,10 @@
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/camerashake"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/popup"
     },
     {
@@ -1484,6 +1708,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/level_3"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level_4"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

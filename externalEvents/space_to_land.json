@@ -38,8 +38,66 @@
           },
           "parameters": [
             "level_num",
-            "+",
-            "1"
+            "=",
+            "2"
+          ]
+        },
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"scn_game\"",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_player_ship",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "player_Velocity",
+            "=",
+            "0"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "obj_player_ship",
+            "obj_planet_volcano",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarGlobal"
+          },
+          "parameters": [
+            "level_num",
+            "=",
+            "4"
           ]
         },
         {

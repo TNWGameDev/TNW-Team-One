@@ -12,7 +12,7 @@
           },
           "parameters": [
             "obj_player",
-            "obj_tree",
+            "trees",
             "",
             "",
             ""
@@ -26,7 +26,36 @@
           },
           "parameters": [
             "obj_player",
-            "obj_tree",
+            "trees",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "obj_player",
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "obj_player",
+            "lava_planet_stuff",
             ""
           ]
         }

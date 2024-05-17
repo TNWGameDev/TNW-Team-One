@@ -27,19 +27,15 @@
       "objects": [
         {
           "name": "obj_pew_pew"
+        },
+        {
+          "name": "obj_pickaxe"
         }
       ]
     },
     {
       "name": "items_stackable",
-      "objects": [
-        {
-          "name": "obj_brick"
-        },
-        {
-          "name": "obj_rock"
-        }
-      ]
+      "objects": []
     },
     {
       "name": "damage_triggers",
@@ -50,16 +46,22 @@
       ]
     },
     {
-      "name": "enviormentals",
+      "name": "forest",
       "objects": [
         {
           "name": "obj_tree"
         },
         {
-          "name": "obj_rock"
+          "name": "obj_tree_2"
         },
         {
-          "name": "obj_brick"
+          "name": "obj_tree_3"
+        },
+        {
+          "name": "obj_bush"
+        },
+        {
+          "name": "obj_rock"
         }
       ]
     },
@@ -71,6 +73,30 @@
         },
         {
           "name": "obj_tree"
+        },
+        {
+          "name": "obj_tree_2"
+        },
+        {
+          "name": "obj_tree_3"
+        },
+        {
+          "name": "obj_bush"
+        },
+        {
+          "name": "obj_grass"
+        },
+        {
+          "name": "obj_magma_ground"
+        },
+        {
+          "name": "boss_floor"
+        },
+        {
+          "name": "obj_volcano_1"
+        },
+        {
+          "name": "obj_volcano_2"
         }
       ]
     },
@@ -108,6 +134,48 @@
         },
         {
           "name": "bottom_middle"
+        }
+      ]
+    },
+    {
+      "name": "trees",
+      "objects": [
+        {
+          "name": "obj_tree"
+        },
+        {
+          "name": "obj_tree_2"
+        },
+        {
+          "name": "obj_tree_3"
+        },
+        {
+          "name": "obj_bush"
+        }
+      ]
+    },
+    {
+      "name": "backgrounds",
+      "objects": [
+        {
+          "name": "obj_grass"
+        },
+        {
+          "name": "boss_floor"
+        },
+        {
+          "name": "obj_magma_ground"
+        }
+      ]
+    },
+    {
+      "name": "lava_planet_stuff",
+      "objects": [
+        {
+          "name": "obj_volcano_1"
+        },
+        {
+          "name": "obj_volcano_2"
         }
       ]
     }
@@ -690,10 +758,10 @@
                     "y": 237
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 201.5,
+                    "y": 237
                   },
                   "customCollisionMask": [
                     [
@@ -1805,7 +1873,16 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "FlashEffect",
+          "type": "Flash::FlashEffect",
+          "HalfPeriodTime": 0.1,
+          "IsFlashing": false,
+          "FlashDuration": 0,
+          "EffectName": ""
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -2140,7 +2217,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "obj_grass",
-      "texture": "the_real_grasssss.jpg",
+      "texture": "the_real_grasssss3.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -2208,7 +2285,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "obj_ship_landed",
       "type": "Sprite",
@@ -2228,36 +2305,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Space_Ship_13",
+                  "image": "Space_Ship_14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 213,
-                    "y": 147
+                    "x": 424.5,
+                    "y": 281.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 213,
-                    "y": 147
+                    "x": 426.5,
+                    "y": 282
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 158,
-                        "y": 74
+                        "x": 319,
+                        "y": 322.5
                       },
                       {
-                        "x": 269,
-                        "y": 74
+                        "x": 431,
+                        "y": 150
                       },
                       {
-                        "x": 269,
-                        "y": 192
+                        "x": 532,
+                        "y": 321.5
                       },
                       {
-                        "x": 158,
-                        "y": 192
+                        "x": 425.5,
+                        "y": 395.5
                       }
                     ]
                   ]
@@ -2296,12 +2373,12 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite31",
+                  "image": "NewSprite43",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 2.5,
-                    "y": 2.5
+                    "x": 12.5,
+                    "y": 12.5
                   },
                   "centerPoint": {
                     "automatic": true,
@@ -2312,20 +2389,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
-                      },
-                      {
-                        "x": 5,
-                        "y": 0
-                      },
-                      {
-                        "x": 5,
+                        "x": 3,
                         "y": 5
                       },
                       {
-                        "x": 0,
+                        "x": 21,
                         "y": 5
+                      },
+                      {
+                        "x": 21,
+                        "y": 20
+                      },
+                      {
+                        "x": 3,
+                        "y": 20
                       }
                     ]
                   ]
@@ -2417,36 +2494,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite32",
+                  "image": "NewSprite42",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 13.5,
-                    "y": 29.5
+                    "x": 13,
+                    "y": 31.5
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
                     "x": 13,
-                    "y": 29.5
+                    "y": 31.5
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 21
+                        "x": 11,
+                        "y": 20
                       },
                       {
-                        "x": 50,
-                        "y": 21
+                        "x": 62,
+                        "y": 20
                       },
                       {
-                        "x": 50,
-                        "y": 39
+                        "x": 62,
+                        "y": 42
                       },
                       {
-                        "x": 12,
-                        "y": 39
+                        "x": 11,
+                        "y": 42
                       }
                     ]
                   ]
@@ -2478,36 +2555,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "obj_nav_forest2",
+                  "image": "obj_nav_forest3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 12.5,
-                    "y": 29.5
+                    "x": 11,
+                    "y": 24
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 12.5,
-                    "y": 29.5
+                    "x": 11,
+                    "y": 24
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 12,
-                        "y": 21
+                        "x": 10,
+                        "y": 12
                       },
                       {
-                        "x": 50,
-                        "y": 21
+                        "x": 62,
+                        "y": 12
                       },
                       {
-                        "x": 50,
-                        "y": 39
+                        "x": 62,
+                        "y": 35
                       },
                       {
-                        "x": 12,
-                        "y": 39
+                        "x": 10,
+                        "y": 35
                       }
                     ]
                   ]
@@ -3077,6 +3154,550 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "obj_magma_ground",
+      "texture": "Lava_Floor_1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_volcano_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Stuff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Stuff",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 97,
+                    "y": 123.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 97,
+                    "y": 122.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 49.5,
+                        "y": 102.5
+                      },
+                      {
+                        "x": 150,
+                        "y": 104
+                      },
+                      {
+                        "x": 160.5,
+                        "y": 125
+                      },
+                      {
+                        "x": 96,
+                        "y": 138.5
+                      },
+                      {
+                        "x": 35.5,
+                        "y": 124.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_volcano_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Stuff_1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Stuff_1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 105,
+                    "y": 113
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 105,
+                    "y": 112
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 31.5,
+                        "y": 98.5
+                      },
+                      {
+                        "x": 77.5,
+                        "y": 95.5
+                      },
+                      {
+                        "x": 132.5,
+                        "y": 93
+                      },
+                      {
+                        "x": 175.5,
+                        "y": 92.5
+                      },
+                      {
+                        "x": 190,
+                        "y": 100.5
+                      },
+                      {
+                        "x": 108,
+                        "y": 127.5
+                      },
+                      {
+                        "x": 20,
+                        "y": 110
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_tree_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "hp",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Forest_Things_1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Forest_Things_1",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 78.5,
+                    "y": 215.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 84.5,
+                    "y": 220
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 60.5,
+                        "y": 213
+                      },
+                      {
+                        "x": 96.5,
+                        "y": 214.5
+                      },
+                      {
+                        "x": 119,
+                        "y": 225.5
+                      },
+                      {
+                        "x": 45.5,
+                        "y": 227.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_tree_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "hp",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Forest_Things",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Forest_Things",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 95.5,
+                    "y": 259.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 92.5,
+                    "y": 261.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 65.5,
+                        "y": 254
+                      },
+                      {
+                        "x": 120,
+                        "y": 256
+                      },
+                      {
+                        "x": 140,
+                        "y": 268
+                      },
+                      {
+                        "x": 37.5,
+                        "y": 274
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_bush",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "hp",
+          "type": "number",
+          "value": 25
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Forest_Things_2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Forest_Things_2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 40,
+                    "y": 56.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 39.5,
+                    "y": 56.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 33,
+                        "y": 56.5
+                      },
+                      {
+                        "x": 49.5,
+                        "y": 55.5
+                      },
+                      {
+                        "x": 51,
+                        "y": 62
+                      },
+                      {
+                        "x": 31.5,
+                        "y": 62.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "cord_x",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "cord_y",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Distruction_Bar",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 20,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_pickaxe",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite44",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 30,
+                    "y": 32
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 30,
+                    "y": 32
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
+                        "y": 16
+                      },
+                      {
+                        "x": 50,
+                        "y": 48
+                      },
+                      {
+                        "x": 13,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3145,6 +3766,12 @@
         "folderName": "enviormentals",
         "children": [
           {
+            "objectName": "obj_magma_ground"
+          },
+          {
+            "objectName": "obj_bush"
+          },
+          {
             "objectName": "obj_ship_landed"
           },
           {
@@ -3176,6 +3803,18 @@
         "folderName": "material",
         "children": [
           {
+            "objectName": "obj_volcano_2"
+          },
+          {
+            "objectName": "obj_volcano_1"
+          },
+          {
+            "objectName": "obj_tree_2"
+          },
+          {
+            "objectName": "obj_tree_3"
+          },
+          {
             "objectName": "obj_rock"
           },
           {
@@ -3189,6 +3828,9 @@
       {
         "folderName": "tools",
         "children": [
+          {
+            "objectName": "obj_pickaxe"
+          },
           {
             "objectName": "obj_bullet"
           },
@@ -3233,6 +3875,15 @@
             "objectName": "obj_boss"
           }
         ]
+      },
+      {
+        "objectName": "cord_x"
+      },
+      {
+        "objectName": "cord_y"
+      },
+      {
+        "objectName": "Distruction_Bar"
       }
     ]
   },
@@ -3454,6 +4105,10 @@
     {
       "name": "Flash",
       "type": "Flash::Flash"
+    },
+    {
+      "name": "FlashEffect",
+      "type": "Flash::FlashEffect"
     },
     {
       "name": "Flippable",

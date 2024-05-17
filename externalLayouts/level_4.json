@@ -1,0 +1,53 @@
+{
+  "associatedLayout": "scn_game",
+  "name": "level_4",
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 179,
+      "height": 5637,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_magma_ground",
+      "persistentUuid": "319f459e-8c49-4fcd-87c2-6658a58c29ea",
+      "width": 5637,
+      "x": -2328,
+      "y": -2107,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 97,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_player",
+      "persistentUuid": "7b930d50-4059-4b80-b8e9-4372635f86b4",
+      "width": 139,
+      "x": 538,
+      "y": 651,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "editionSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.546875,
+    "windowMask": false
+  }
+}

@@ -50,6 +50,17 @@
             "=",
             "\"walk_up\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -87,6 +98,17 @@
             "Animation",
             "=",
             "\"walk_left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -126,6 +148,17 @@
             "=",
             "\"walk_down\""
           ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1"
+          ]
         }
       ]
     },
@@ -163,6 +196,17 @@
             "Animation",
             "=",
             "\"walk_right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1"
           ]
         }
       ]
@@ -328,6 +372,332 @@
           },
           "parameters": [
             "obj_bullet",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Sprinting"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "w"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "obj_player",
+            "0",
+            "-75",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_up\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "a"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "obj_player",
+            "-75",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "s"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "obj_player",
+            "0",
+            "75",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_down\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "d"
+          ]
+        },
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "LShift"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AddForceXY"
+          },
+          "parameters": [
+            "obj_player",
+            "75",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "\"walk_right\""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetSpeedScale"
+          },
+          "parameters": [
+            "obj_player",
+            "Animation",
+            "=",
+            "1.5"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Material Collection"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "forest",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "forest",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "forest",
             ""
           ]
         }

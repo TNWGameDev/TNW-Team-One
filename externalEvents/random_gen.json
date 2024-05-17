@@ -4,8 +4,20 @@
   "name": "random_gen",
   "events": [
     {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Forest Generation"
+    },
+    {
       "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "150",
+      "repeatExpression": "1000",
       "conditions": [
         {
           "type": {
@@ -27,37 +39,24 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "CreateByName"
           },
           "parameters": [
             "",
-            "obj_tree",
-            "Random(2750)",
-            "Random(1850)",
+            "forest",
+            "forest_objs[ToString(RandomInRange(0, GlobalVariableChildCount(forest_objs)) -1)]",
+            "Random(3666)",
+            "Random(3250)",
             ""
           ]
         },
         {
           "type": {
-            "value": "Create"
+            "value": "DebuggerTools::ConsoleLog"
           },
           "parameters": [
-            "",
-            "obj_rock",
-            "Random(2750)",
-            "Random(1850)",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "obj_brick",
-            "Random(2750)",
-            "Random(1850)",
+            "forest_objs[ToString(RandomInRange(0, GlobalVariableChildCount(forest_objs)) -1)]",
+            "\"info\"",
             ""
           ]
         }
@@ -103,13 +102,12 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "Distance"
           },
           "parameters": [
-            "enviormentals",
-            "enviormentals",
-            "",
-            "",
+            "trees",
+            "trees",
+            "50",
             ""
           ]
         }
@@ -120,7 +118,131 @@
             "value": "Delete"
           },
           "parameters": [
-            "enviormentals",
+            "trees",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Volcano Generation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "50",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "level_num",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_volcano_1",
+            "Random(2750)",
+            "Random(1850)",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_volcano_2",
+            "Random(2750)",
+            "Random(1850)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "level_num",
+            "=",
+            "4"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_ship_landed",
+            "obj_player.X()+300",
+            "obj_player.Y()",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "lava_planet_stuff",
             ""
           ]
         }

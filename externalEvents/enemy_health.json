@@ -29,6 +29,36 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CollisionNP"
+          },
+          "parameters": [
+            "pain_trigger",
+            "obj_bullet",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Flash::Flash::Flash"
+          },
+          "parameters": [
+            "pain_trigger",
+            "",
+            "0.5",
+            ""
+          ]
+        }
+      ]
     }
   ]
 }
