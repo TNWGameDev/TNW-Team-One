@@ -268,7 +268,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "500",
+      "repeatExpression": "250",
       "conditions": [
         {
           "type": {

@@ -1589,7 +1589,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
-      "object": "beach",
+      "object": "obj_palm_tree_1",
       "conditions": [
         {
           "type": {
@@ -1663,7 +1663,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "beach",
+            "obj_palm_tree_1",
             ""
           ]
         },
@@ -1682,7 +1682,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
-      "object": "forest",
+      "object": "obj_palm_tree_2",
       "conditions": [
         {
           "type": {
@@ -1756,7 +1756,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "beach",
+            "obj_palm_tree_2",
             ""
           ]
         },
@@ -1775,7 +1775,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::ForEach",
-      "object": "forest",
+      "object": "obj_plam_tree_3",
       "conditions": [
         {
           "type": {
@@ -1849,7 +1849,7 @@
             "value": "Delete"
           },
           "parameters": [
-            "beach",
+            "obj_plam_tree_3",
             ""
           ]
         },

@@ -1887,6 +1887,51 @@
         "name": "Lava_Rocks__4",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_1.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Forest_1.png\",\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Forest_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forest_1.png2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Forest_1.png2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Floor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Floor.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pickaxe.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pickaxe.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite53.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite51",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2071,12 +2116,12 @@
         },
         {
           "type": "string",
-          "value": "obj_plam_tree_1"
+          "value": "obj_palm_tree_1"
         },
         {
           "folded": true,
           "type": "string",
-          "value": "obj_plam_tree_2"
+          "value": "obj_palm_tree_2"
         },
         {
           "type": "string",

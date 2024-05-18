@@ -68,6 +68,74 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 41,
+      "height": 4127,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_lava",
+      "persistentUuid": "839426e5-00a6-4afe-8e7a-7afcd0d51c86",
+      "width": 8525,
+      "x": -944,
+      "y": 5573,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 41,
+      "height": 4127,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_lava",
+      "persistentUuid": "d7a28194-2d55-4513-89b1-86d5036b7f03",
+      "width": 8525,
+      "x": -1775,
+      "y": -4092,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 41,
+      "height": 6882,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_lava",
+      "persistentUuid": "6e00ac24-950e-4e35-b44b-0fe7730553ab",
+      "width": 8525,
+      "x": -8522,
+      "y": -231,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 41,
+      "height": 6882,
+      "keepRatio": true,
+      "layer": "",
+      "name": "obj_lava",
+      "persistentUuid": "7fa0dac7-2b95-4088-b5a1-765d02c9b7e1",
+      "width": 8525,
+      "x": 5554,
+      "y": -441,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "editionSettings": {
@@ -80,7 +148,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.045293214587501705,
+    "zoomFactor": 0.02493320503064366,
     "windowMask": false
   }
 }

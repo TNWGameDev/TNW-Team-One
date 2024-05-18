@@ -4086,36 +4086,36 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite44",
+                  "image": "NewSprite51",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 30,
-                    "y": 32
+                    "x": 32,
+                    "y": 35
                   },
                   "centerPoint": {
                     "automatic": false,
                     "name": "centre",
-                    "x": 30,
-                    "y": 32
+                    "x": 32,
+                    "y": 35
                   },
                   "customCollisionMask": [
                     [
                       {
                         "x": 13,
-                        "y": 16
+                        "y": 17
                       },
                       {
-                        "x": 50,
-                        "y": 16
+                        "x": 49,
+                        "y": 17
                       },
                       {
-                        "x": 50,
-                        "y": 48
+                        "x": 49,
+                        "y": 56
                       },
                       {
                         "x": 13,
-                        "y": 48
+                        "y": 56
                       }
                     ]
                   ]
@@ -5136,6 +5136,28 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 400,
+      "name": "forest_barrier",
+      "texture": "Forest_1.png2",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 500,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 100,
+      "name": "obj_lava",
+      "texture": "Lava_Floor.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 100,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "objectsFolderStructure": {
@@ -5376,6 +5398,12 @@
       },
       {
         "objectName": "sea_shell_2"
+      },
+      {
+        "objectName": "forest_barrier"
+      },
+      {
+        "objectName": "obj_lava"
       }
     ]
   },
