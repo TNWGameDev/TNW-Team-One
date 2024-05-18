@@ -125,6 +125,33 @@
       ]
     },
     {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "forest",
+            "obj_ship_landed",
+            "150",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "forest",
+            ""
+          ]
+        }
+      ]
+    },
+    {
       "type": "BuiltinCommonInstructions::Comment",
       "color": {
         "b": 109,
@@ -138,7 +165,7 @@
     },
     {
       "type": "BuiltinCommonInstructions::Repeat",
-      "repeatExpression": "50",
+      "repeatExpression": "500",
       "conditions": [
         {
           "type": {
@@ -160,25 +187,14 @@
       "actions": [
         {
           "type": {
-            "value": "Create"
+            "value": "CreateByName"
           },
           "parameters": [
             "",
-            "obj_volcano_1",
-            "Random(2750)",
-            "Random(1850)",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "obj_volcano_2",
-            "Random(2750)",
-            "Random(1850)",
+            "lava_planet_stuff",
+            "lava_objs[ToString(RandomInRange(0, GlobalVariableChildCount(lava_objs)) -1)]",
+            "Random(5636)",
+            "Random(5636)",
             ""
           ]
         }
@@ -189,31 +205,23 @@
       "conditions": [
         {
           "type": {
-            "value": "VarGlobal"
+            "value": "Distance"
           },
           "parameters": [
-            "level_num",
-            "=",
-            "4"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
+            "volcanos",
             "obj_ship_landed",
-            "obj_player.X()+300",
-            "obj_player.Y()",
+            "150",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "volcanos",
             ""
           ]
         }
@@ -224,13 +232,12 @@
       "conditions": [
         {
           "type": {
-            "value": "CollisionNP"
+            "value": "Distance"
           },
           "parameters": [
-            "lava_planet_stuff",
-            "lava_planet_stuff",
-            "",
-            "",
+            "volcanos",
+            "volcanos",
+            "50",
             ""
           ]
         }
@@ -238,15 +245,68 @@
       "actions": [
         {
           "type": {
-            "value": "SeparateFromObjects"
+            "value": "Delete"
           },
           "parameters": [
-            "lava_planet_stuff",
-            "lava_planet_stuff",
+            "volcanos",
             ""
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Beach Generation"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Repeat",
+      "repeatExpression": "500",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarGlobal"
+          },
+          "parameters": [
+            "level_num",
+            "=",
+            "5"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "CreateByName"
+          },
+          "parameters": [
+            "",
+            "beach",
+            "beach_objs[ToString(RandomInRange(0, GlobalVariableChildCount(beach_objs)) -1)]",
+            "Random(3410)",
+            "Random(2460)",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }

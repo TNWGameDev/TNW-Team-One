@@ -1536,13 +1536,431 @@
         "name": "NewSprite44",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Rocks__1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Rocks__1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks__1.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks__1",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks__2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks__2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Rocks_.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Rocks_.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks_.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks_",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations_3.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Walking_Animations_3.png\",\"extension\":\".png\"}",
+        "name": "Walking_Animations_3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations_4.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Walking_Animations_4.png\",\"extension\":\".png\"}",
+        "name": "Walking_Animations_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations_5.png",
+        "kind": "image",
+        "metadata": "{\"localFilePath\":\"Walking_Animations_5.png\",\"extension\":\".png\"}",
+        "name": "Walking_Animations_5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking_Animations.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking_Animations_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Walking_Animations_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Walking_Animations_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite47.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite47.png\"}",
+        "name": "NewSprite45",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite48.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite46",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite49.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite47",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite50.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite48",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite51.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/NewSprite51.png\"}",
+        "name": "NewSprite49",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "rock_shard.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "rock_shard.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/rock_shard.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "rock_shard",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite52.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite50",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/obj_barrier.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "obj_barrier",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Island_Stuff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Island_Stuff.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Island_Stuff_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Island_Stuff_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Island_Stuff2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Island_Stuff2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Rocks_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Rocks_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks_2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks_2",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Sea_Shells.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Sea_Shells.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sea_Shells.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sea_Shells",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "20240517_141743.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "20240517_141743.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/20240517_141743.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "20240517_141743",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/20240517_141744.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "20240517_141744",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Planet_Stuff.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Planet_Stuff.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Planet_Stuff_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Planet_Stuff_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ocean_Planet_Stuff_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ocean_Planet_Stuff_1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Forest_Things_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Forest_Things_4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Forest_Things_4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Forest_Things_4",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Rocks__3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Rocks__3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks__3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks__3",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Lava_Rocks__4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Lava_Rocks__4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Lava_Rocks__4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Lava_Rocks__4",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_mouse",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite50",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 26.5,
+                    "y": 31.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 26.5,
+                    "y": 31.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 18,
+                        "y": 34.5
+                      },
+                      {
+                        "x": 27.5,
+                        "y": 18.5
+                      },
+                      {
+                        "x": 33.5,
+                        "y": 34
+                      },
+                      {
+                        "x": 26.5,
+                        "y": 43
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "obj_mouse"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [
@@ -1571,6 +1989,7 @@
       "value": false
     },
     {
+      "folded": true,
       "name": "forest_objs",
       "type": "array",
       "children": [
@@ -1600,6 +2019,82 @@
           "value": "obj_bush"
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "lava_objs",
+      "type": "array",
+      "children": [
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_volcano_1"
+        },
+        {
+          "type": "string",
+          "value": "obj_volcano_2"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_obsidian_rock"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_lava_rock"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "enemy_lava_rock"
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "destroy_forest",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "beach_objs",
+      "type": "array",
+      "children": [
+        {
+          "type": "string",
+          "value": "sea_shell_1"
+        },
+        {
+          "type": "string",
+          "value": "sea_shell_2"
+        },
+        {
+          "type": "string",
+          "value": "obj_plam_tree_1"
+        },
+        {
+          "folded": true,
+          "type": "string",
+          "value": "obj_plam_tree_2"
+        },
+        {
+          "type": "string",
+          "value": "obj_plam_tree_3"
+        }
+      ]
+    },
+    {
+      "folded": true,
+      "name": "destroy_ocean",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "destroy_volcano",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -1663,7 +2158,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/enemy_health"
+      "referenceTo": "/externalEvents/enemy_code"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1672,16 +2167,28 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalEvents/boss_fight"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/planet_descruction_bar"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mouse_death"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mouse_menu"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalEvents/mouse_game"
     }
   ],
   "eventsFunctionsExtensions": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/camerashake"
-    },
-    {
-      "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/eventsFunctionsExtensions/popup"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
@@ -1712,6 +2219,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/externalLayouts/level_4"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/externalLayouts/level_5"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,

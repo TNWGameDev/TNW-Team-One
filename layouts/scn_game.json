@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.3128666891698474,
+    "zoomFactor": 0.509998499217239,
     "windowMask": false
   },
   "objectsGroups": [
@@ -35,13 +35,32 @@
     },
     {
       "name": "items_stackable",
-      "objects": []
+      "objects": [
+        {
+          "name": "obj_rock_collected"
+        },
+        {
+          "name": "sea_shell_1"
+        },
+        {
+          "name": "sea_shell_2"
+        },
+        {
+          "name": "obj_log"
+        },
+        {
+          "name": "obj_obsidian"
+        }
+      ]
     },
     {
       "name": "damage_triggers",
       "objects": [
         {
-          "name": "pain_trigger"
+          "name": "enemy_lava_rock"
+        },
+        {
+          "name": "obj_brick"
         }
       ]
     },
@@ -97,6 +116,24 @@
         },
         {
           "name": "obj_volcano_2"
+        },
+        {
+          "name": "obj_palm_tree_1"
+        },
+        {
+          "name": "obj_palm_tree_2"
+        },
+        {
+          "name": "obj_plam_tree_3"
+        },
+        {
+          "name": "obj_rock"
+        },
+        {
+          "name": "obj_lava_rock"
+        },
+        {
+          "name": "obj_log"
         }
       ]
     },
@@ -151,6 +188,15 @@
         },
         {
           "name": "obj_bush"
+        },
+        {
+          "name": "obj_palm_tree_1"
+        },
+        {
+          "name": "obj_palm_tree_2"
+        },
+        {
+          "name": "obj_plam_tree_3"
         }
       ]
     },
@@ -176,6 +222,43 @@
         },
         {
           "name": "obj_volcano_2"
+        }
+      ]
+    },
+    {
+      "name": "volcanos",
+      "objects": [
+        {
+          "name": "obj_volcano_1"
+        },
+        {
+          "name": "obj_volcano_2"
+        },
+        {
+          "name": "obj_lava_rock"
+        },
+        {
+          "name": "obj_obsidian_rock"
+        }
+      ]
+    },
+    {
+      "name": "beach",
+      "objects": [
+        {
+          "name": "sea_shell_1"
+        },
+        {
+          "name": "sea_shell_2"
+        },
+        {
+          "name": "obj_palm_tree_1"
+        },
+        {
+          "name": "obj_palm_tree_2"
+        },
+        {
+          "name": "obj_plam_tree_3"
         }
       ]
     }
@@ -480,6 +563,54 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "obj_destruction_background",
+      "persistentUuid": "b45ce39a-aee0-4485-b259-773aa172590a",
+      "width": 0,
+      "x": 510,
+      "y": 48,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "obj_destruction_bar",
+      "persistentUuid": "47b6b24f-305f-4ba9-9dfe-032c12730911",
+      "width": 0,
+      "x": 510,
+      "y": 48,
+      "zOrder": 20,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "UI",
+      "name": "timer_countdown",
+      "persistentUuid": "ab9cac0f-b5f9-479c-9080-a755f7a627b5",
+      "width": 0,
+      "x": 1052,
+      "y": 39,
+      "zOrder": 21,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -658,7 +789,14 @@
       "name": "obj_planet_forest",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "destroy",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -836,14 +974,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1300.5,
+                    "y": 764
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1298.5,
+                    "y": 761.5
                   },
                   "customCollisionMask": [
                     [
@@ -856,8 +994,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -876,14 +1014,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1300.5,
+                    "y": 764
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1298.5,
+                    "y": 761.5
                   },
                   "customCollisionMask": [
                     [
@@ -896,8 +1034,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -916,14 +1054,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1300.5,
+                    "y": 764
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1298.5,
+                    "y": 761.5
                   },
                   "customCollisionMask": [
                     [
@@ -936,8 +1074,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -968,36 +1106,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1294.5,
+                    "y": 822.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1292,
+                    "y": 821
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1307,
+                        "y": 1345
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1545,
+                        "y": 1345
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
                         "y": 829.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1129.5,
+                        "y": 1324.5
                       }
                     ]
                   ]
@@ -1008,36 +1146,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1294.5,
+                    "y": 822.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1292,
+                    "y": 821
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1307,
+                        "y": 1345
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1545,
+                        "y": 1345
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
                         "y": 829.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1129.5,
+                        "y": 1324.5
                       }
                     ]
                   ]
@@ -1048,36 +1186,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1294.5,
+                    "y": 822.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1292,
+                    "y": 821
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1307,
+                        "y": 1345
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1545,
+                        "y": 1345
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
                         "y": 829.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1129.5,
+                        "y": 1324.5
                       }
                     ]
                   ]
@@ -1100,36 +1238,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1489,
+                    "y": 770
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1486.5,
+                    "y": 770
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1480.5,
+                        "y": 1290.5
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1745.5,
+                        "y": 1270
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1595,
+                        "y": 827.5
                       },
                       {
-                        "x": 1159.5,
-                        "y": 829.5
+                        "x": 1384.5,
+                        "y": 812.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1300.5,
+                        "y": 1244.5
                       }
                     ]
                   ]
@@ -1140,36 +1278,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1489,
+                    "y": 770
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1486.5,
+                    "y": 770
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1480.5,
+                        "y": 1290.5
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1745.5,
+                        "y": 1270
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1595,
+                        "y": 827.5
                       },
                       {
-                        "x": 1159.5,
-                        "y": 829.5
+                        "x": 1384.5,
+                        "y": 812.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1300.5,
+                        "y": 1244.5
                       }
                     ]
                   ]
@@ -1180,36 +1318,36 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1489,
+                    "y": 770
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1486.5,
+                    "y": 770
                   },
                   "customCollisionMask": [
                     [
                       {
-                        "x": 1260.5,
-                        "y": 1299
+                        "x": 1480.5,
+                        "y": 1290.5
                       },
                       {
-                        "x": 1471,
-                        "y": 1250.5
+                        "x": 1745.5,
+                        "y": 1270
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1595,
+                        "y": 827.5
                       },
                       {
-                        "x": 1159.5,
-                        "y": 829.5
+                        "x": 1384.5,
+                        "y": 812.5
                       },
                       {
-                        "x": 1060,
-                        "y": 1261.5
+                        "x": 1300.5,
+                        "y": 1244.5
                       }
                     ]
                   ]
@@ -1232,14 +1370,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1280,
+                    "y": 827.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1280,
+                    "y": 828.5
                   },
                   "customCollisionMask": [
                     [
@@ -1252,8 +1390,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -1272,14 +1410,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1280,
+                    "y": 827.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1280,
+                    "y": 828.5
                   },
                   "customCollisionMask": [
                     [
@@ -1292,8 +1430,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -1312,14 +1450,14 @@
                   "points": [],
                   "originPoint": {
                     "name": "origine",
-                    "x": 1279,
-                    "y": 737.5
+                    "x": 1280,
+                    "y": 827.5
                   },
                   "centerPoint": {
-                    "automatic": true,
+                    "automatic": false,
                     "name": "centre",
-                    "x": 0,
-                    "y": 0
+                    "x": 1280,
+                    "y": 828.5
                   },
                   "customCollisionMask": [
                     [
@@ -1332,8 +1470,8 @@
                         "y": 1250.5
                       },
                       {
-                        "x": 1378.5,
-                        "y": 823.5
+                        "x": 1389.5,
+                        "y": 838
                       },
                       {
                         "x": 1159.5,
@@ -1342,6 +1480,271 @@
                       {
                         "x": 1060,
                         "y": 1261.5
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk_down_right",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations_3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 355,
+                    "y": 757
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 355,
+                    "y": 758.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 494,
+                        "y": 1280.5
+                      },
+                      {
+                        "x": 509,
+                        "y": 1100
+                      },
+                      {
+                        "x": 404.5,
+                        "y": 862
+                      },
+                      {
+                        "x": 252.5,
+                        "y": 847.5
+                      },
+                      {
+                        "x": 207.5,
+                        "y": 1273
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations_4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 355,
+                    "y": 757
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 355,
+                    "y": 758.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 494,
+                        "y": 1280.5
+                      },
+                      {
+                        "x": 509,
+                        "y": 1100
+                      },
+                      {
+                        "x": 404.5,
+                        "y": 862
+                      },
+                      {
+                        "x": 252.5,
+                        "y": 847.5
+                      },
+                      {
+                        "x": 207.5,
+                        "y": 1273
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations_5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 355,
+                    "y": 757
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 355,
+                    "y": 758.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 494,
+                        "y": 1280.5
+                      },
+                      {
+                        "x": 509,
+                        "y": 1100
+                      },
+                      {
+                        "x": 404.5,
+                        "y": 862
+                      },
+                      {
+                        "x": 252.5,
+                        "y": 847.5
+                      },
+                      {
+                        "x": 207.5,
+                        "y": 1273
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "walk_down_left",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.125,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 680.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 360,
+                    "y": 684
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 553,
+                        "y": 1168.5
+                      },
+                      {
+                        "x": 171.5,
+                        "y": 1154.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 671
+                      },
+                      {
+                        "x": 456,
+                        "y": 660.5
+                      },
+                      {
+                        "x": 560,
+                        "y": 1047
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 680.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 360,
+                    "y": 684
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 553,
+                        "y": 1168.5
+                      },
+                      {
+                        "x": 171.5,
+                        "y": 1154.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 671
+                      },
+                      {
+                        "x": 456,
+                        "y": 660.5
+                      },
+                      {
+                        "x": 560,
+                        "y": 1047
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Walking_Animations_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 359,
+                    "y": 680.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 360,
+                    "y": 684
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 553,
+                        "y": 1168.5
+                      },
+                      {
+                        "x": 171.5,
+                        "y": 1154.5
+                      },
+                      {
+                        "x": 244.5,
+                        "y": 671
+                      },
+                      {
+                        "x": 456,
+                        "y": 660.5
+                      },
+                      {
+                        "x": 560,
+                        "y": 1047
                       }
                     ]
                   ]
@@ -1536,6 +1939,12 @@
           "name": "being_held",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "damage_amount",
+          "type": "number",
+          "value": 15
         }
       ],
       "effects": [],
@@ -2290,7 +2699,25 @@
       "name": "obj_ship_landed",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "able_to_leave_forest",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "able_to_leave_ocean",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "name": "able_to_leave_volcano",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -3698,6 +4125,1017 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_obsidian_rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Rocks__1",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Rocks__2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 45,
+                    "y": 47
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 45,
+                    "y": 47
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 24.5,
+                        "y": 27.5
+                      },
+                      {
+                        "x": 52,
+                        "y": 23
+                      },
+                      {
+                        "x": 74.5,
+                        "y": 35
+                      },
+                      {
+                        "x": 78.5,
+                        "y": 63
+                      },
+                      {
+                        "x": 15,
+                        "y": 71.5
+                      },
+                      {
+                        "x": 5.5,
+                        "y": 61
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_lava_rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Rocks_",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Rocks_",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 109,
+                    "y": 63.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 109,
+                    "y": 63.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 89.5,
+                        "y": 52
+                      },
+                      {
+                        "x": 106.5,
+                        "y": 40
+                      },
+                      {
+                        "x": 130.5,
+                        "y": 41
+                      },
+                      {
+                        "x": 138,
+                        "y": 73
+                      },
+                      {
+                        "x": 79,
+                        "y": 73
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_destruction_background",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite48",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 450,
+                        "y": 0
+                      },
+                      {
+                        "x": 450,
+                        "y": 35
+                      },
+                      {
+                        "x": 0,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_destruction_bar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "destruction_amount",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "max_destruction_amount",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "NewSprite2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "NewSprite49",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 35
+                      },
+                      {
+                        "x": 0,
+                        "y": 35
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_rock_collected",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "rock_shard",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "rock_shard",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 161.5,
+                    "y": 127.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 160.5,
+                    "y": 127.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 150,
+                        "y": 118
+                      },
+                      {
+                        "x": 169,
+                        "y": 118
+                      },
+                      {
+                        "x": 169,
+                        "y": 135
+                      },
+                      {
+                        "x": 150,
+                        "y": 135
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": false,
+      "name": "timer_countdown",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Text",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 176,
+        "g": 176,
+        "r": 180
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Text",
+        "font": "",
+        "textAlignment": "left",
+        "characterSize": 50,
+        "color": "180;176;176"
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_barrier",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "obj_barrier",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "obj_barrier",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "obj_sand",
+      "texture": "Ocean_Island_Stuff_1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "obj_water",
+      "texture": "Ocean_Island_Stuff2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "enemy_lava_rock",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "enemy_health",
+          "type": "number",
+          "value": 100
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Rocks_2",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Rocks_2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 110.5,
+                    "y": 64.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 110.5,
+                    "y": 64
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 79,
+                        "y": 39
+                      },
+                      {
+                        "x": 138,
+                        "y": 39
+                      },
+                      {
+                        "x": 138,
+                        "y": 73
+                      },
+                      {
+                        "x": 79,
+                        "y": 73
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sea_shell_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Sea_Shells",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sea_Shells",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 15
+                      },
+                      {
+                        "x": 52,
+                        "y": 15
+                      },
+                      {
+                        "x": 52,
+                        "y": 57
+                      },
+                      {
+                        "x": 13,
+                        "y": 57
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "sea_shell_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "20240517_141743",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "20240517_141744",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 9,
+                        "y": 10
+                      },
+                      {
+                        "x": 43,
+                        "y": 10
+                      },
+                      {
+                        "x": 43,
+                        "y": 48
+                      },
+                      {
+                        "x": 9,
+                        "y": 48
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_palm_tree_1",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ocean_Planet_Stuff.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 483.5,
+                    "y": 691.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 485.5,
+                    "y": 693
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 428.5,
+                        "y": 697.5
+                      },
+                      {
+                        "x": 527.5,
+                        "y": 694.5
+                      },
+                      {
+                        "x": 537,
+                        "y": 721
+                      },
+                      {
+                        "x": 439.5,
+                        "y": 736
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_palm_tree_2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ocean_Planet_Stuff_2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 278,
+                    "y": 700.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 278.5,
+                    "y": 704.5
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 255.5,
+                        "y": 694.5
+                      },
+                      {
+                        "x": 308,
+                        "y": 698
+                      },
+                      {
+                        "x": 295,
+                        "y": 731
+                      },
+                      {
+                        "x": 252,
+                        "y": 734
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_plam_tree_3",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ocean_Planet_Stuff_1.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 696,
+                    "y": 693.5
+                  },
+                  "centerPoint": {
+                    "automatic": false,
+                    "name": "centre",
+                    "x": 696,
+                    "y": 693
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 673.5,
+                        "y": 693.5
+                      },
+                      {
+                        "x": 720,
+                        "y": 688
+                      },
+                      {
+                        "x": 731,
+                        "y": 722
+                      },
+                      {
+                        "x": 671.5,
+                        "y": 728
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "obj_log",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Forest_Things_4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Forest_Things_4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 325.5,
+                    "y": 266
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 101,
+                        "y": 188.5
+                      },
+                      {
+                        "x": 547,
+                        "y": 178
+                      },
+                      {
+                        "x": 524.5,
+                        "y": 316.5
+                      },
+                      {
+                        "x": 221.5,
+                        "y": 387
+                      },
+                      {
+                        "x": 102.5,
+                        "y": 325
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "lava_rock_collect",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Rocks__3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Rocks__3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 15
+                      },
+                      {
+                        "x": 50,
+                        "y": 15
+                      },
+                      {
+                        "x": 50,
+                        "y": 47
+                      },
+                      {
+                        "x": 13,
+                        "y": 47
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "obj_obsidian",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Lava_Rocks_4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Lava_Rocks__4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 3,
+                        "y": 21
+                      },
+                      {
+                        "x": 55,
+                        "y": 21
+                      },
+                      {
+                        "x": 55,
+                        "y": 51
+                      },
+                      {
+                        "x": 3,
+                        "y": 51
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -3803,6 +5241,12 @@
         "folderName": "material",
         "children": [
           {
+            "objectName": "obj_lava_rock"
+          },
+          {
+            "objectName": "obj_obsidian_rock"
+          },
+          {
             "objectName": "obj_volcano_2"
           },
           {
@@ -3884,6 +5328,54 @@
       },
       {
         "objectName": "Distruction_Bar"
+      },
+      {
+        "objectName": "obj_destruction_background"
+      },
+      {
+        "objectName": "obj_destruction_bar"
+      },
+      {
+        "objectName": "obj_rock_collected"
+      },
+      {
+        "objectName": "timer_countdown"
+      },
+      {
+        "objectName": "obj_barrier"
+      },
+      {
+        "objectName": "obj_sand"
+      },
+      {
+        "objectName": "obj_water"
+      },
+      {
+        "objectName": "obj_palm_tree_1"
+      },
+      {
+        "objectName": "obj_palm_tree_2"
+      },
+      {
+        "objectName": "obj_plam_tree_3"
+      },
+      {
+        "objectName": "lava_rock_collect"
+      },
+      {
+        "objectName": "obj_obsidian"
+      },
+      {
+        "objectName": "obj_log"
+      },
+      {
+        "objectName": "enemy_lava_rock"
+      },
+      {
+        "objectName": "sea_shell_1"
+      },
+      {
+        "objectName": "sea_shell_2"
       }
     ]
   },
@@ -3997,7 +5489,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "enemy_health"
+      "target": "enemy_code"
     },
     {
       "type": "BuiltinCommonInstructions::Link",
@@ -4012,6 +5504,20 @@
         "includeConfig": 0
       },
       "target": "boss_fight"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "planet_descruction_bar"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Link",
+      "include": {
+        "includeConfig": 0
+      },
+      "target": "mouse_game"
     }
   ],
   "layers": [

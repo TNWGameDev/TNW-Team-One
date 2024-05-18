@@ -653,7 +653,193 @@
             "value": "Distance"
           },
           "parameters": [
+            "obj_rock",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "obj_rock",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_rock_collected",
+            "obj_rock.X()",
+            "obj_rock.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_rock",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "obj_tree",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_tree",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "trees",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
             "forest",
+            "obj_log",
+            "obj_tree.X()",
+            "obj_tree.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_tree",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_tree_2",
             "obj_player",
             "50",
             ""
@@ -694,14 +880,996 @@
       "actions": [
         {
           "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "obj_log",
+            "obj_tree_2.X()",
+            "obj_tree_2.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_tree_2",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_tree_3",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "forest",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_log",
+            "obj_tree_3.X()",
+            "obj_tree_3.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "obj_tree_3",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_bush",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "forest",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_log",
+            "obj_bush.X()",
+            "obj_bush.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
             "value": "Delete"
           },
           "parameters": [
             "forest",
             ""
           ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_rock",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "forest",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_rock_collected",
+            "forest.X()",
+            "forest.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "forest",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "lava collection"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "lava_planet_stuff",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_volcano_1",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "lava_rock_collect",
+            "obj_volcano_1.X()",
+            "obj_volcano_1.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "lava_planet_stuff",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_volcano_2",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "lava_rock_collect",
+            "obj_volcano_2.X()",
+            "obj_volcano_2.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "lava_planet_stuff",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_lava_rock",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "lava_rock_collect",
+            "obj_lava_rock.X()",
+            "obj_lava_rock.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "lava_planet_stuff",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_obsidian_rock",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_obsidian",
+            "obj_obsidian_rock.X()",
+            "obj_obsidian_rock.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "lava_planet_stuff",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "beach collection"
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "beach",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_palm_tree_1",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "beach",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_log",
+            "obj_palm_tree_1.X()",
+            "obj_palm_tree_1.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "beach",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_palm_tree_2",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "beach",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_log",
+            "obj_palm_tree_2.X()",
+            "obj_palm_tree_2.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "beach",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::ForEach",
+      "object": "forest",
+      "conditions": [
+        {
+          "type": {
+            "value": "VarObjetTxt"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "items_held",
+            "=",
+            "\"obj_pickaxe\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Distance"
+          },
+          "parameters": [
+            "obj_plam_tree_3",
+            "obj_player",
+            "50",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        },
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "beach",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::Name"
+          },
+          "parameters": [
+            "obj_inventory_slot",
+            "Animation",
+            "=",
+            "\"selected\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "forest",
+            "obj_log",
+            "obj_plam_tree_3.X()",
+            "obj_plam_tree_3.Y()",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "beach",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarObjet"
+          },
+          "parameters": [
+            "obj_destruction_bar",
+            "destruction_amount",
+            "+",
+            "2"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
     }
   ]
 }
